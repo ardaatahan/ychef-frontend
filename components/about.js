@@ -31,7 +31,7 @@ const About = () => (
             Yakup Chef'i Tercih Etmek İçin 3 Sebep
           </h1>
         </div>
-        <div class="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4">
           <div className="p-4 md:w-1/3">
             <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
               <div className="flex items-center mb-3">

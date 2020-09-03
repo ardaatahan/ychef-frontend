@@ -1,6 +1,6 @@
 const Map = () => (
-  <section class="text-gray-700 body-font relative">
-    <div class="absolute inset-0">
+  <section className="text-gray-700 body-font relative">
+    <div className="absolute inset-0">
       <iframe
         width="100%"
         height="200%"
@@ -10,9 +10,9 @@ const Map = () => (
         title="map"
         scrolling="no"
         src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=38.7798327,%2030.514639+(Yakup%20Chef)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-      ></iframe>
+      />
     </div>
-    <div class="container px-5 py-24 mx-auto flex"></div>
+    <div className="container px-5 py-24 mx-auto flex"></div>
   </section>
 );
 

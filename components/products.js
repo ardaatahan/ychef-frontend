@@ -17,27 +17,25 @@ const Products = ({ products }) => (
       </div>
       <div className="flex flex-wrap -m-4">
         {products.map((product) => (
-          <>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
-                <img
-                  alt="ecommerce"
-                  className="object-cover object-center w-full h-full block"
-                  src={`${baseUrl}${product.image.url}`}
-                />
-              </a>
-              <div className="mt-4">
-                <h2 className="text-gray-900 title-font text-lg font-medium">
-                  {product.productName}
-                </h2>
-              </div>
-              <Link href={`/product/${product.id}`}>
-                <a class="text-red-500 inline-flex items-center mt-3">
-                  Ayrıntılar &rarr;
-                </a>
-              </Link>
+          <div className="lg:w-1/4 md:w-1/2 p-4 w-full" key={product.id}>
+            <a className="block relative h-48 rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                className="object-cover object-center w-full h-full block"
+                src={`${baseUrl}${product.image.url}`}
+              />
+            </a>
+            <div className="mt-4">
+              <h2 className="text-gray-900 title-font text-lg font-medium">
+                {product.productName}
+              </h2>
             </div>
-          </>
+            <Link href={`/product/${product.id}`}>
+              <a className="text-red-500 inline-flex items-center mt-3">
+                Ayrıntılar &rarr;
+              </a>
+            </Link>
+          </div>
         ))}
       </div>
     </div>
