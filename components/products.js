@@ -22,7 +22,7 @@ const Products = ({ products }) => (
               <img
                 alt="ecommerce"
                 className="object-cover object-center w-full h-full block"
-                src={`${baseUrl}${product.image.url}`}
+                src={`${product.image.url}`}
               />
             </a>
             <div className="mt-4">
