@@ -1,7 +1,5 @@
 import Link from "next/link";
 
-import { baseUrl } from "../lib/utils";
-
 const Products = ({ products }) => (
   <section className="text-gray-700 body-font">
     <div className="container px-5 pt-24 pb-6 mx-auto">
