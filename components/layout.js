@@ -19,7 +19,7 @@ const Layout = ({ children, title, description }) => (
             <a className="mr-5 nav-link">Hakkımızda</a>
           </Link>
           <Link href="/order">
-            <a className="mr-5 nav-link">Sipariş</a>
+            <a className="mr-5 nav-link">İletişim</a>
           </Link>
         </nav>
         <Link href="/">

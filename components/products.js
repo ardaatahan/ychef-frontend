@@ -30,7 +30,7 @@ const Products = ({ products }) => (
             </div>
             <Link href={`/product/${product.id}`}>
               <a className="text-red-500 inline-flex items-center mt-3">
-                Ayrıntılar &rarr;
+                Ayrıntılar/Sipariş &rarr;
               </a>
             </Link>
           </div>
