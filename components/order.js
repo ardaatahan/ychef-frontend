@@ -13,7 +13,7 @@ const Order = () => (
           </h1>
         </div>
       </div>
-      <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+      <div className="flex flex-wrap md:flex-row flex-col sm:-m-4 -mx-4 -mb-10 -mt-4">
         <div className="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col text-center items-center">
           <div className="flex-grow">
             <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
