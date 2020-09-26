@@ -7,7 +7,13 @@ import { fetchQuery } from "../lib/utils";
 const IndexPage = ({ products }) => (
   <Layout
     title="Yakup Chef"
-    description="Yakup Şef Chef Et ve Et Ürünleri Afyon Afyonkarahisar Kasap"
+    description="1996'da Afyon'da en iyi eti sunmak amacıyla hizmet vermeye başlayan
+        Yakup Chef, Afyon et kültürüne keyifli ve lezzetli yeni bir yorum
+        getirdi. Açıldığı ilk günden beri etseverlerin ilk ve vazgeçilmez
+        tercihi olmaya devam eden Yakup Chef Afyon'daki steak kültürünün
+        öncüsüdür. Kalite ve lezzet konusunda asla ödün vermeden çalışan Yakup
+        Chef başta İstanbul olmak üzere Tükiye'nin dört bir yanına et
+        sağlamaktadır. Yakup Şef Chef Et ve Et Ürünleri Afyon Afyonkarahisar Kasap"
   >
     <Products products={products} />
     <Order />
